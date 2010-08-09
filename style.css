@@ -1,0 +1,172 @@
+/*  
+Theme Name: The Telegraph
+Theme Uri: http://spilltelegrafen.no
+Description: The Theme of the Telegraph
+Template: thematic
+version: 0.1
+Author: Eirik & Petter
+tags: sweet, telegraph, thematic
+.
+The Telegraph-theme is buildt for and by the telegraph.
+.
+*/
+
+/* Reset browser defaults */
+@import url('../thematic/library/styles/reset.css');
+
+/* Apply basic typography styles */
+@import url('../thematic/library/styles/typography.css');
+
+/* Apply a basic layout */
+@import url('../thematic/library/layouts/2c-r-fixed.css');
+
+/* Apply basic image styles */
+@import url('../thematic/library/styles/images.css');
+
+/* Prepare theme for plugins */
+@import url('../thematic/library/styles/plugins.css');
+
+/* Apply theme styles and colors */
+@import url('../thematic/library/styles/default.css');
+
+#header, #footer {
+    /* background: white url("library/images/header-bg.png") repeat-x; */
+	background: white;
+}
+
+body, input, textarea {
+	font-family: Georgia, serif;
+	line-height: 20px;
+}
+
+a:link {
+	color: #dc0000;
+}
+
+a:visited {
+	color: #666666;
+}
+
+.entry-meta {
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 7px;
+}
+
+.entry-utility {
+	border-top: 1px dotted #ccc;
+	padding-top: 7px;
+}
+
+.entry-meta, .entry-meta .n, .entry-meta abbr, .entry-utility, .entry-utility a { 
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-style: normal;
+}
+
+.entry-meta .n, .entry-meta abbr  {
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+.entry-meta a, .entry-utility a, .aside a {
+	color: #333;
+	text-decoration: none;
+}
+
+.entry-meta a:hover, .entry-utility a:hover, .asida a:hover {
+	text-decoration: underline;
+}
+
+.entry-title a, #blog-title a, .sf-menu a, h1, h2, h3, h4, h5, h6 {
+	font-family: Helvetica, Arial, sans-serif;
+	color: #dc0000;
+}
+
+#blog-title a {
+	font-size: 48px;
+	line-height: 50px;
+}
+
+.logopic {
+	margin-top: 0px;
+}
+
+.entry-title a {
+	font-size: 28px;
+}
+
+#blog-description {
+	font-family: Georgia, serif;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+
+#branding, #main {
+	padding-top: 44px;
+}
+
+.hentry , #main {
+	padding-bottom: 0;
+}
+
+#siteinfo {
+	padding-bottom: 22px;
+}
+
+#keepreading {
+	float: left;
+}
+
+#siteinfo li, #keepreading {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 28px;
+	font-weight: bold;
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+
+#siteinfo li a {
+	color: #dc0000;	
+	text-decoration: none;
+}
+
+#content {
+	text-align: justify;
+}
+
+#content img {
+	max-width: 540px; 
+	width: expression(this.width > 540 ? 540: true);
+}
+
+.sf-menu a {
+	color: #333;
+}
+
+.sf-menu .current_page_item a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+#content h1, #content h2, #content h3 {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+/*
+#access, .sf-menu .sf-js-enabled, .sf-menu a {
+	border: none;
+	outline: none;
+}
+
+.sf-menu a, .sf-menu a:hover, .sf-menu .current_page_item a {
+	color: #333;
+	border: 1px solid #ccc;
+	border-right: none;
+}
+*/
+
+
+
+
+
